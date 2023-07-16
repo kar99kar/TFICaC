@@ -1,0 +1,22 @@
+.contenedorDetalle{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    max-width: 400px;
+    margin: 15px;
+    height: 40em;
+    width: auto;
+    border-radius:15px ;
+}
+
+.peliculaDetalle{
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+.item{
+    margin-top:0;
+}

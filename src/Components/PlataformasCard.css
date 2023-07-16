@@ -1,0 +1,40 @@
+
+
+.plataformasCard{
+    
+   
+    list-style: none;
+    font-size: 1rem;
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+}
+
+.originalTitle{
+    color: antiquewhite;
+}
+
+.plataformasImage{
+    border-radius: 10px;
+    background-color: azure;
+    width: 130px;
+    height: 200px;
+    color: antiquewhite;
+    
+}
+.plataformasImage:hover{
+box-shadow: 0 0 11px gray;
+filter: grayscale(80%);
+}
+
+a{
+    text-decoration: none
+}
+
+@media(max-width:560px){
+    .plataformasImage{
+
+width: 90%;
+height: auto;
+    } 
+}

@@ -1,0 +1,17 @@
+.moviesGrid {
+    display: flex;
+    overflow-x: scroll;
+    gap: 40px;
+    padding: 40px;
+    justify-content: flex-start;
+  }
+  
+  .moviesGrid > * {
+    flex: 0 0 230px;
+  }
+  
+  @media (max-width: 560px) {
+    .moviesGrid {
+      flex-wrap: nowrap;
+    }
+  }

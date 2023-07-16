@@ -1,0 +1,32 @@
+.title{
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #07031a, 0 0 40px #0b072c,
+
+}
+
+header{
+  background-image: url("https://wallpapercave.com/wp/wp3982552.jpg");
+  height: 400px;
+
+}
+.logoPlataforma {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 25px;
+  width: 130px;
+  height: 130px;
+  padding: 5px;
+  }
+
+.logoPlataforma1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+body{
+  background-image: url("https://mcdn.wallpapersafari.com/medium/24/78/hmOLlw.jpg");
+}
